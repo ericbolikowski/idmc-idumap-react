@@ -105,7 +105,7 @@ export const Legend = ({
 
   return (
     <div style={styleLegendOuterWrapper}>
-      <p style={{ textAlign: "justify", fontSize: "12px" }}>
+      <p style={{ fontSize: "12px" }}>
         This map displays all displacement events recorded by IDMC that have
         ocurred in the past 30 days.
       </p>
@@ -174,9 +174,12 @@ export const Legend = ({
           </button>
         </div>
       </div>
-      <p style={{ fontSize: "10px", marginBottom: "0px" }}>
+      <p style={{ fontSize: "10px", marginBottom: "0px", color: "grey" }}>
         Developed by students at{" "}
-        <a href="https://www.redi-school.org/">ReDI School</a>
+        <a href="https://www.redi-school.org/" target="_blank">
+          ReDI School
+        </a>
+        .
       </p>
     </div>
   );
